@@ -1,0 +1,206 @@
+@media (max-width:1112px) {
+
+    .us-flex-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .links-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .links-input input {
+        max-width: 370px;
+    }
+}
+
+@media (max-width:908px) {
+    .header-card p:before {
+        display: none;
+    }
+}
+
+
+@media (max-width:918px) {
+
+    .rates-flex-cost {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+    }
+}
+
+@media (max-width:800px) {
+    .header:before {
+        display: none;
+    }
+
+    .header-cards::before {
+        display: none;
+    }
+
+    .header-nav-links {
+        display: none;
+    }
+
+    /* .header-cards {
+        /* align-items: center; */
+    /* } */
+
+    .header-cards h1 {
+        max-width: 340px;
+        /* margin: -40px auto 70px; */
+    }
+
+    .header-card h4 {
+        display: none;
+    }
+
+    .header {
+        margin-top: -40px;
+    }
+
+    .header-card p:nth-child(2) {
+        display: flex;
+        font-size: 30px;
+        line-height: 30px;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        margin: 0 auto 40px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .header-card p:nth-child(2) span {
+        color: #FF9840;
+
+    }
+
+    .header-card h3 {
+        text-transform: uppercase;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .header-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .header-btn {
+        background: #FF9840;
+        border-radius: 15px 10px 0px 15px;
+        padding: 20px 25px;
+        order: 5;
+    }
+
+    .header-card p {
+        margin: 37px 0 30px 0;
+    }
+
+    .info p {
+        border: none;
+        color: white;
+        padding: 15px 10px;
+        text-align: justify;
+
+    }
+
+    .info {
+        background: #123549;
+        border-radius: 15px 0px 0px 15px;
+        margin-bottom: 70px;
+    }
+
+    .us h1 {
+        display: none;
+    }
+
+    .btn-about {
+        position: relative;
+        border-radius: 5px 5px 0px 5px;
+        width: 226px;
+        background: #FFA21A;
+    }
+
+    .btn-about:hover {
+        background: #FFA21A;
+    }
+
+    .header-btn:hover {
+        background: #FFA21A;
+    }
+
+    .btn-about::before {
+        position: absolute;
+        content: url(../img/dot-us.svg);
+        top: 22px;
+        left: 23px;
+        z-index: -999;
+    }
+
+    .rates-flex-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .rates-cost-card p span {
+        width: 100px;
+    }
+}
+
+
+@media (max-width:830px) {
+    .servises {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .servises img {
+        display: inline;
+        transform: rotate(180deg);
+    }
+
+    .button {
+        transform: rotate(180deg);
+    }
+
+    .active {
+        display: none;
+    }
+}
+
+@media (max-width:762px) {
+    .footer-flex-card {
+        flex-direction: column;
+        align-items: start;
+
+    }
+}
+
+@media (max-width:400px) {
+    .us-card:nth-child(1) h2 {
+        max-width: 250px;
+    }
+}
+
+@media (max-width:350px) {
+    .us-card:nth-child(3) h2 {
+        max-width: 150px;
+    }
+
+    .header-card h1 {
+        font-weight: normal;
+    }
+}
